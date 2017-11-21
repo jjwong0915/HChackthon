@@ -7,7 +7,7 @@ for (var i of cross) {
         delete i['POS'];
         tmp = [parseFloat(tmp[0]), parseFloat(tmp[1])]
         tmp.push(i);
-        data.push();
+        data.push(tmp);
     }
 }
-module.export = data;
+module.exports = data;
