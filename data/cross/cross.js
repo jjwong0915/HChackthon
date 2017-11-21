@@ -6,8 +6,7 @@ for (var i of cross) {
         var tmp = i.POS.split(",");
         delete i['POS'];
         tmp = [parseFloat(tmp[0]), parseFloat(tmp[1])]
-        tmp.push(i);
-        data.push();
+        data.push({lat: parseFloat(tmp[0]), lng: parseFloat(tmp[1]), data: i});
     }
 }
-module.export = data;
+module.exports = data;
