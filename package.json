@@ -1,0 +1,24 @@
+{
+  "name": "hc-hackthon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjwong0915/HChackthon.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jjwong0915/HChackthon/issues"
+  },
+  "homepage": "https://github.com/jjwong0915/HChackthon#readme",
+  "dependencies": {
+    "consolidate": "^0.15.0",
+    "express": "^4.16.2",
+    "hogan": "^1.0.2"
+  }
+}
