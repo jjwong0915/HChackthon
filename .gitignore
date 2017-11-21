@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# google map api config
+config.json
