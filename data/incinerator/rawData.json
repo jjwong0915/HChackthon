@@ -1,0 +1,2422 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.4973205189548,
+                            24.9587719444639,
+                            0
+                        ],
+                        [
+                            121.4972425932259,
+                            24.95870331667302,
+                            0
+                        ],
+                        [
+                            121.4972277803518,
+                            24.95849561521969,
+                            0
+                        ],
+                        [
+                            121.4971684877518,
+                            24.9584784789819,
+                            0
+                        ],
+                        [
+                            121.4971738952236,
+                            24.95791217800755,
+                            0
+                        ],
+                        [
+                            121.4972842968467,
+                            24.95785844909648,
+                            0
+                        ],
+                        [
+                            121.4972866194217,
+                            24.95772490232931,
+                            0
+                        ],
+                        [
+                            121.4978863519937,
+                            24.9577228861443,
+                            0
+                        ],
+                        [
+                            121.4979237024573,
+                            24.95775129043929,
+                            0
+                        ],
+                        [
+                            121.4979405751937,
+                            24.95788043678592,
+                            0
+                        ],
+                        [
+                            121.4979847601866,
+                            24.95788452690648,
+                            0
+                        ],
+                        [
+                            121.4980054199249,
+                            24.95811703632156,
+                            0
+                        ],
+                        [
+                            121.4981876803596,
+                            24.95812626394719,
+                            0
+                        ],
+                        [
+                            121.4982079086885,
+                            24.95830216697296,
+                            0
+                        ],
+                        [
+                            121.4982348706324,
+                            24.9585256288504,
+                            0
+                        ],
+                        [
+                            121.4983537176422,
+                            24.95893846782008,
+                            0
+                        ],
+                        [
+                            121.4973205189548,
+                            24.9587719444639,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北縣新店垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北縣新店垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>0</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>F0501686</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北縣新店焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北縣新店市薏仁坑路自強巷1號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-22142022</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北縣新店垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00001"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.9153086824016,
+                            24.83394388750757,
+                            0
+                        ],
+                        [
+                            120.9163978052697,
+                            24.83333496952899,
+                            0
+                        ],
+                        [
+                            120.9170259822862,
+                            24.83359481528655,
+                            0
+                        ],
+                        [
+                            120.9175119638944,
+                            24.83388482664531,
+                            0
+                        ],
+                        [
+                            120.9181323635011,
+                            24.83423974159667,
+                            0
+                        ],
+                        [
+                            120.9188369252745,
+                            24.83465058837935,
+                            0
+                        ],
+                        [
+                            120.9175996952606,
+                            24.83539631386171,
+                            0
+                        ],
+                        [
+                            120.9167758087457,
+                            24.83587447035766,
+                            0
+                        ],
+                        [
+                            120.9153086824016,
+                            24.83394388750757,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "新竹市垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>新竹市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>1</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>O1708678</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>新竹市焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>新竹市南寮海濱路240號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>03-5339011</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>新竹市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00002"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.835424647132,
+                            24.67144617391478,
+                            0
+                        ],
+                        [
+                            120.8370815092325,
+                            24.67390388871348,
+                            0
+                        ],
+                        [
+                            120.835608364196,
+                            24.6745975092763,
+                            0
+                        ],
+                        [
+                            120.8343525181744,
+                            24.67265514916888,
+                            0
+                        ],
+                        [
+                            120.835424647132,
+                            24.67144617391478,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "苗栗縣垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>苗栗縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>2</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>K7107366</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>苗栗縣焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>苗栗縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00003"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.6203766489435,
+                            24.09820604361674,
+                            0
+                        ],
+                        [
+                            120.6197067468486,
+                            24.09855652233012,
+                            0
+                        ],
+                        [
+                            120.6180797779278,
+                            24.09658408869039,
+                            0
+                        ],
+                        [
+                            120.6194908801516,
+                            24.09505262207263,
+                            0
+                        ],
+                        [
+                            120.6203766489435,
+                            24.09820604361674,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台中縣烏日垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台中縣烏日垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>3</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台中縣烏日焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台中縣烏日垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00004"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.6062726837553,
+                            25.06365226546155,
+                            0
+                        ],
+                        [
+                            121.6048433732362,
+                            25.06321485051334,
+                            0
+                        ],
+                        [
+                            121.605086229547,
+                            25.06255687590516,
+                            0
+                        ],
+                        [
+                            121.6052026833993,
+                            25.06223409153209,
+                            0
+                        ],
+                        [
+                            121.605230249664,
+                            25.06223759307851,
+                            0
+                        ],
+                        [
+                            121.6053642098126,
+                            25.0622692696825,
+                            0
+                        ],
+                        [
+                            121.6055546980162,
+                            25.06178485496362,
+                            0
+                        ],
+                        [
+                            121.6065922355758,
+                            25.06228968548999,
+                            0
+                        ],
+                        [
+                            121.6073992753919,
+                            25.06274165392724,
+                            0
+                        ],
+                        [
+                            121.6078409488168,
+                            25.06292599175335,
+                            0
+                        ],
+                        [
+                            121.6075800120657,
+                            25.06349295231794,
+                            0
+                        ],
+                        [
+                            121.6072983315299,
+                            25.0638344747687,
+                            0
+                        ],
+                        [
+                            121.6071964582191,
+                            25.06391723197183,
+                            0
+                        ],
+                        [
+                            121.6070901791102,
+                            25.06393202464131,
+                            0
+                        ],
+                        [
+                            121.6070181328561,
+                            25.06391363127971,
+                            0
+                        ],
+                        [
+                            121.6062726837553,
+                            25.06365226546155,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北市內湖垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北市內湖垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>4</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>A4200130</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北市內湖焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北市葫洲里安康路290號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-27961833</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北市內湖垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00005"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.5872971396612,
+                            25.00635043365033,
+                            0
+                        ],
+                        [
+                            121.5870272664093,
+                            25.0063291094409,
+                            0
+                        ],
+                        [
+                            121.5867877605056,
+                            25.00629656402322,
+                            0
+                        ],
+                        [
+                            121.5866400643504,
+                            25.00619666243676,
+                            0
+                        ],
+                        [
+                            121.5865452299792,
+                            25.00594334590732,
+                            0
+                        ],
+                        [
+                            121.5864422908432,
+                            25.00587902056263,
+                            0
+                        ],
+                        [
+                            121.5863747175135,
+                            25.00585698764919,
+                            0
+                        ],
+                        [
+                            121.5863371946172,
+                            25.0057175589091,
+                            0
+                        ],
+                        [
+                            121.5863286341729,
+                            25.00566667704986,
+                            0
+                        ],
+                        [
+                            121.5863763801595,
+                            25.00545929190864,
+                            0
+                        ],
+                        [
+                            121.5863060339159,
+                            25.00516714731764,
+                            0
+                        ],
+                        [
+                            121.5863992492502,
+                            25.00514456988808,
+                            0
+                        ],
+                        [
+                            121.5864270983393,
+                            25.00502221730721,
+                            0
+                        ],
+                        [
+                            121.5868119365552,
+                            25.00480618985526,
+                            0
+                        ],
+                        [
+                            121.5871280488602,
+                            25.00467908746894,
+                            0
+                        ],
+                        [
+                            121.5877940057404,
+                            25.00466165207707,
+                            0
+                        ],
+                        [
+                            121.5881885296907,
+                            25.00479334585797,
+                            0
+                        ],
+                        [
+                            121.58845289842,
+                            25.0048662400592,
+                            0
+                        ],
+                        [
+                            121.5885267116609,
+                            25.00503251587765,
+                            0
+                        ],
+                        [
+                            121.5888469817329,
+                            25.00577137287917,
+                            0
+                        ],
+                        [
+                            121.5888436376319,
+                            25.00590094158936,
+                            0
+                        ],
+                        [
+                            121.5887670771035,
+                            25.00604930407096,
+                            0
+                        ],
+                        [
+                            121.5886456317304,
+                            25.00613491943871,
+                            0
+                        ],
+                        [
+                            121.5881022618295,
+                            25.00628513648469,
+                            0
+                        ],
+                        [
+                            121.5875707113628,
+                            25.00637968474902,
+                            0
+                        ],
+                        [
+                            121.5874323561124,
+                            25.00638899119545,
+                            0
+                        ],
+                        [
+                            121.5873708240974,
+                            25.00636684369826,
+                            0
+                        ],
+                        [
+                            121.5872971396612,
+                            25.00635043365033,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北市木柵垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北市木柵垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>5</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>A4000283</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北市木柵焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北市木柵路五段53號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-22300800</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北市木柵垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00006"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.4991155843494,
+                            25.10715267377279,
+                            0
+                        ],
+                        [
+                            121.5021690839132,
+                            25.10716689728648,
+                            0
+                        ],
+                        [
+                            121.5021078490716,
+                            25.10979436534333,
+                            0
+                        ],
+                        [
+                            121.5000666188358,
+                            25.11042332027542,
+                            0
+                        ],
+                        [
+                            121.4990565387884,
+                            25.11033940589968,
+                            0
+                        ],
+                        [
+                            121.4991155843494,
+                            25.10715267377279,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北市北投垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北市北投垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>6</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>A4400916</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北市北投焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北市洲美街271號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-28360050</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北市北投垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00007"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.3798782788888,
+                            24.96825047042706,
+                            0
+                        ],
+                        [
+                            121.3791232141835,
+                            24.96801552854161,
+                            0
+                        ],
+                        [
+                            121.3786706262369,
+                            24.96756604464212,
+                            0
+                        ],
+                        [
+                            121.3790974119734,
+                            24.96674257225362,
+                            0
+                        ],
+                        [
+                            121.3796371804136,
+                            24.96625110694885,
+                            0
+                        ],
+                        [
+                            121.3802589262298,
+                            24.96657837707663,
+                            0
+                        ],
+                        [
+                            121.3807647215146,
+                            24.9667283798432,
+                            0
+                        ],
+                        [
+                            121.3810078561459,
+                            24.96712260493311,
+                            0
+                        ],
+                        [
+                            121.3808396735261,
+                            24.96757692718488,
+                            0
+                        ],
+                        [
+                            121.3806639415592,
+                            24.96793268770301,
+                            0
+                        ],
+                        [
+                            121.3805345539257,
+                            24.96801299735652,
+                            0
+                        ],
+                        [
+                            121.3803036417382,
+                            24.96809149514219,
+                            0
+                        ],
+                        [
+                            121.3800584895671,
+                            24.96817436340197,
+                            0
+                        ],
+                        [
+                            121.3798782788888,
+                            24.96825047042706,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北縣樹林垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北縣樹林垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>7</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>F0703948</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北縣樹林焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北縣樹林鎮中山路三段212號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-26808217</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北縣樹林垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00008"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.3668924856914,
+                            25.135019362891,
+                            0
+                        ],
+                        [
+                            121.3664546397357,
+                            25.13506711800743,
+                            0
+                        ],
+                        [
+                            121.3662411548631,
+                            25.1350178134062,
+                            0
+                        ],
+                        [
+                            121.3660574225197,
+                            25.13500228766602,
+                            0
+                        ],
+                        [
+                            121.3660782850057,
+                            25.13471180575755,
+                            0
+                        ],
+                        [
+                            121.3662576908986,
+                            25.134707392777,
+                            0
+                        ],
+                        [
+                            121.3664406491326,
+                            25.1344284271695,
+                            0
+                        ],
+                        [
+                            121.3666839647239,
+                            25.13386683355136,
+                            0
+                        ],
+                        [
+                            121.3667710771832,
+                            25.13374329771889,
+                            0
+                        ],
+                        [
+                            121.3669370913632,
+                            25.13367129569378,
+                            0
+                        ],
+                        [
+                            121.3671820667177,
+                            25.13367068888624,
+                            0
+                        ],
+                        [
+                            121.3671904916417,
+                            25.13356720958537,
+                            0
+                        ],
+                        [
+                            121.3685472161371,
+                            25.1337428714905,
+                            0
+                        ],
+                        [
+                            121.3685387853871,
+                            25.13384237940946,
+                            0
+                        ],
+                        [
+                            121.3688189699835,
+                            25.13390939036086,
+                            0
+                        ],
+                        [
+                            121.3688716542764,
+                            25.13398085205357,
+                            0
+                        ],
+                        [
+                            121.3688461312552,
+                            25.13420363157075,
+                            0
+                        ],
+                        [
+                            121.3691321570723,
+                            25.1347997561071,
+                            0
+                        ],
+                        [
+                            121.3690934363509,
+                            25.13501868643375,
+                            0
+                        ],
+                        [
+                            121.3691854584788,
+                            25.13504626463732,
+                            0
+                        ],
+                        [
+                            121.3691292958448,
+                            25.13527317863287,
+                            0
+                        ],
+                        [
+                            121.3668924856914,
+                            25.135019362891,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台北縣八里垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台北縣八里垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>8</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>F2300972</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台北縣八里焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台北縣八里鄉下罟仔村65號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>02-26195111</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台北縣八里垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00009"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.2505334477376,
+                            24.9932111445982,
+                            0
+                        ],
+                        [
+                            121.2490098343154,
+                            24.99319281785696,
+                            0
+                        ],
+                        [
+                            121.2490083547345,
+                            24.99245058817333,
+                            0
+                        ],
+                        [
+                            121.2490077016154,
+                            24.99212149826218,
+                            0
+                        ],
+                        [
+                            121.2489865794035,
+                            24.99141523412563,
+                            0
+                        ],
+                        [
+                            121.2489851652879,
+                            24.99070586550187,
+                            0
+                        ],
+                        [
+                            121.2503544707951,
+                            24.99070360053236,
+                            0
+                        ],
+                        [
+                            121.2504302885337,
+                            24.99087113190038,
+                            0
+                        ],
+                        [
+                            121.2505194136694,
+                            24.99110138596259,
+                            0
+                        ],
+                        [
+                            121.2505530044402,
+                            24.99145136346441,
+                            0
+                        ],
+                        [
+                            121.2505509492584,
+                            24.99210683952401,
+                            0
+                        ],
+                        [
+                            121.2505334477376,
+                            24.9932111445982,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "桃園縣垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>桃園縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>9</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>H4307715</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>桃園縣焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>桃園縣中壢市中壢工業區松江北路16號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>03-4511111</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>桃園縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00010"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.07517974462,
+                            23.04773800066488,
+                            0
+                        ],
+                        [
+                            120.0743760011294,
+                            23.04666411641251,
+                            0
+                        ],
+                        [
+                            120.0730858250646,
+                            23.04478952200498,
+                            0
+                        ],
+                        [
+                            120.0729523638356,
+                            23.04454638728235,
+                            0
+                        ],
+                        [
+                            120.0737161470642,
+                            23.04414704186652,
+                            0
+                        ],
+                        [
+                            120.0745336797699,
+                            23.04379116539881,
+                            0
+                        ],
+                        [
+                            120.0755173713212,
+                            23.04339219110397,
+                            0
+                        ],
+                        [
+                            120.0770074340307,
+                            23.04287967307907,
+                            0
+                        ],
+                        [
+                            120.0769925869985,
+                            23.04504887326256,
+                            0
+                        ],
+                        [
+                            120.0765406992682,
+                            23.04509789502709,
+                            0
+                        ],
+                        [
+                            120.0766116533244,
+                            23.04657727221081,
+                            0
+                        ],
+                        [
+                            120.07517974462,
+                            23.04773800066488,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台南市垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台南市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>10</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>D3202577</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台南市焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台南市城西里城西街三段1070-10號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>06-2570313</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台南市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00011"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.2796078008703,
+                            23.45008575689802,
+                            0
+                        ],
+                        [
+                            120.2794168985369,
+                            23.45007603175657,
+                            0
+                        ],
+                        [
+                            120.2782673661515,
+                            23.44845662284902,
+                            0
+                        ],
+                        [
+                            120.2801421852244,
+                            23.44706857063247,
+                            0
+                        ],
+                        [
+                            120.2803124469774,
+                            23.44725797890111,
+                            0
+                        ],
+                        [
+                            120.2798674993972,
+                            23.44781151674296,
+                            0
+                        ],
+                        [
+                            120.2804617621695,
+                            23.44825254030444,
+                            0
+                        ],
+                        [
+                            120.2815623768546,
+                            23.44906808567486,
+                            0
+                        ],
+                        [
+                            120.2823548614105,
+                            23.44965276390177,
+                            0
+                        ],
+                        [
+                            120.2822599530976,
+                            23.44983075131417,
+                            0
+                        ],
+                        [
+                            120.2819439085852,
+                            23.45005350560008,
+                            0
+                        ],
+                        [
+                            120.281534093172,
+                            23.45024025126548,
+                            0
+                        ],
+                        [
+                            120.2812798423403,
+                            23.45025434609552,
+                            0
+                        ],
+                        [
+                            120.2810008679584,
+                            23.45022417121165,
+                            0
+                        ],
+                        [
+                            120.2796078008703,
+                            23.45008575689802,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "嘉義縣鹿草垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>嘉義縣鹿草垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>11</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>Q7504056</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>嘉義縣鹿草焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>嘉義縣鹿草鄉馬稠後農場60號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>05-3621101</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>嘉義縣鹿草垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00012"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.3759181514826,
+                            22.55228464285878,
+                            0
+                        ],
+                        [
+                            120.3754612331636,
+                            22.55062447224452,
+                            0
+                        ],
+                        [
+                            120.376731752295,
+                            22.54764769460935,
+                            0
+                        ],
+                        [
+                            120.3775057804655,
+                            22.54799674212784,
+                            0
+                        ],
+                        [
+                            120.3785464651501,
+                            22.5487693717283,
+                            0
+                        ],
+                        [
+                            120.3764082824858,
+                            22.55217787923116,
+                            0
+                        ],
+                        [
+                            120.3759181514826,
+                            22.55228464285878,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "高雄市南區垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>高雄市南區垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>12</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>E5602998</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>高雄市南區焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>高雄市北林路6號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>07-8069750</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>高雄市南區垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00013"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.6988668326261,
+                            24.28874198210029,
+                            0
+                        ],
+                        [
+                            120.6973908115136,
+                            24.28805401635381,
+                            0
+                        ],
+                        [
+                            120.6969372808492,
+                            24.28796883537109,
+                            0
+                        ],
+                        [
+                            120.6968837661279,
+                            24.2872669322331,
+                            0
+                        ],
+                        [
+                            120.6972700242151,
+                            24.2872621365754,
+                            0
+                        ],
+                        [
+                            120.6991526856169,
+                            24.28709755002391,
+                            0
+                        ],
+                        [
+                            120.6991898136784,
+                            24.28888214296092,
+                            0
+                        ],
+                        [
+                            120.6988668326261,
+                            24.28874198210029,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台中縣后里垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台中縣后里垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>13</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台中縣后里焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台中縣后里鄉舊社村枋寮路7-9號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>04-5577450</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台中縣后里垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00014"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.5980316925385,
+                            24.15356354652298,
+                            0
+                        ],
+                        [
+                            120.5976699532653,
+                            24.15265924671724,
+                            0
+                        ],
+                        [
+                            120.598172710792,
+                            24.15221723611042,
+                            0
+                        ],
+                        [
+                            120.5984465215569,
+                            24.1520757398198,
+                            0
+                        ],
+                        [
+                            120.5999703828524,
+                            24.15157796562668,
+                            0
+                        ],
+                        [
+                            120.6000894606425,
+                            24.15185609876481,
+                            0
+                        ],
+                        [
+                            120.6004573976657,
+                            24.15182175360701,
+                            0
+                        ],
+                        [
+                            120.6006034916828,
+                            24.15173852334122,
+                            0
+                        ],
+                        [
+                            120.600700208569,
+                            24.15186860804787,
+                            0
+                        ],
+                        [
+                            120.6005750512448,
+                            24.15208552432581,
+                            0
+                        ],
+                        [
+                            120.6003321769852,
+                            24.15249896901774,
+                            0
+                        ],
+                        [
+                            120.6000898099629,
+                            24.15274925515246,
+                            0
+                        ],
+                        [
+                            120.5999254599876,
+                            24.15284913844499,
+                            0
+                        ],
+                        [
+                            120.5997793970635,
+                            24.15289056449038,
+                            0
+                        ],
+                        [
+                            120.5992049138424,
+                            24.15298531759742,
+                            0
+                        ],
+                        [
+                            120.5984913961304,
+                            24.15323202892637,
+                            0
+                        ],
+                        [
+                            120.5980316925385,
+                            24.15356354652298,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台中市垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台中市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>14</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>B2402442</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台中市焚化爐</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>台中市文山南巷500號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>04-3815856</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台中市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00015"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.2699397676372,
+                            22.81253467781876,
+                            0
+                        ],
+                        [
+                            120.2697450290057,
+                            22.81268379932159,
+                            0
+                        ],
+                        [
+                            120.2684925167181,
+                            22.81343580500743,
+                            0
+                        ],
+                        [
+                            120.2670218254268,
+                            22.81150712399696,
+                            0
+                        ],
+                        [
+                            120.2700456877023,
+                            22.80956684253606,
+                            0
+                        ],
+                        [
+                            120.2714905013417,
+                            22.81151290186663,
+                            0
+                        ],
+                        [
+                            120.2710973587672,
+                            22.81180616237505,
+                            0
+                        ],
+                        [
+                            120.2699397676372,
+                            22.81253467781876,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "高雄縣岡山垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>高雄縣岡山垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>15</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>S1602755</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>高雄縣岡山焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>高雄縣岡山鎮本洲里本工五路9號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>07-6241168</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>高雄縣岡山垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00016"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.4630140607215,
+                            23.82783345764033,
+                            0
+                        ],
+                        [
+                            120.4628468241113,
+                            23.82818530317372,
+                            0
+                        ],
+                        [
+                            120.4625972730507,
+                            23.82809946576717,
+                            0
+                        ],
+                        [
+                            120.4593861203269,
+                            23.82681118346804,
+                            0
+                        ],
+                        [
+                            120.4599043691131,
+                            23.8256534030984,
+                            0
+                        ],
+                        [
+                            120.4626831007178,
+                            23.82639785546014,
+                            0
+                        ],
+                        [
+                            120.4627105658047,
+                            23.82633049439629,
+                            0
+                        ],
+                        [
+                            120.4634889959022,
+                            23.82650711728161,
+                            0
+                        ],
+                        [
+                            120.4634063553372,
+                            23.82688769995745,
+                            0
+                        ],
+                        [
+                            120.4632490790693,
+                            23.82725213440115,
+                            0
+                        ],
+                        [
+                            120.4630140607215,
+                            23.82783345764033,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "彰化縣溪洲垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>彰化縣溪洲垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>16</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>N3201030</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>彰化縣溪洲焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>彰化縣溪洲鄉彰水路一段臨1號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>04-8899417</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>彰化縣溪洲垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00017"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.3304261870018,
+                            22.66515928930634,
+                            0
+                        ],
+                        [
+                            120.3305897344848,
+                            22.66384265382287,
+                            0
+                        ],
+                        [
+                            120.3306162038904,
+                            22.66378198702785,
+                            0
+                        ],
+                        [
+                            120.330734101685,
+                            22.66377038388125,
+                            0
+                        ],
+                        [
+                            120.3309501921644,
+                            22.66377743632399,
+                            0
+                        ],
+                        [
+                            120.331375513165,
+                            22.66382166967149,
+                            0
+                        ],
+                        [
+                            120.3316109094268,
+                            22.66390158909792,
+                            0
+                        ],
+                        [
+                            120.3319373314617,
+                            22.66407292248151,
+                            0
+                        ],
+                        [
+                            120.3323280578433,
+                            22.66452980610712,
+                            0
+                        ],
+                        [
+                            120.3323994563102,
+                            22.66467595459666,
+                            0
+                        ],
+                        [
+                            120.3321080391401,
+                            22.66535456790771,
+                            0
+                        ],
+                        [
+                            120.3325236110802,
+                            22.66608681885733,
+                            0
+                        ],
+                        [
+                            120.3325229942468,
+                            22.66621432860618,
+                            0
+                        ],
+                        [
+                            120.3323651240302,
+                            22.66634109095174,
+                            0
+                        ],
+                        [
+                            120.3314976248979,
+                            22.66565155604065,
+                            0
+                        ],
+                        [
+                            120.3313276882201,
+                            22.66557796200688,
+                            0
+                        ],
+                        [
+                            120.3305367221811,
+                            22.66530144894001,
+                            0
+                        ],
+                        [
+                            120.3304127160323,
+                            22.66522804768655,
+                            0
+                        ],
+                        [
+                            120.3304261870018,
+                            22.66515928930634,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "高雄市中區垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>高雄市中區垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>17</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>E5002890</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>高雄市中區焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>高雄市鼎金一巷22號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>07-3909400</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>高雄市中區垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00018"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.368362400104,
+                            22.69871075797808,
+                            0
+                        ],
+                        [
+                            120.3686526133753,
+                            22.69848261762481,
+                            0
+                        ],
+                        [
+                            120.3688112468476,
+                            22.69887183947489,
+                            0
+                        ],
+                        [
+                            120.3690194960456,
+                            22.69911667636224,
+                            0
+                        ],
+                        [
+                            120.3693147763861,
+                            22.69886552562871,
+                            0
+                        ],
+                        [
+                            120.3696891116297,
+                            22.69886700959318,
+                            0
+                        ],
+                        [
+                            120.3701954300851,
+                            22.69923295451848,
+                            0
+                        ],
+                        [
+                            120.3701099090028,
+                            22.69941865286076,
+                            0
+                        ],
+                        [
+                            120.370145023078,
+                            22.69953041133488,
+                            0
+                        ],
+                        [
+                            120.3700219572948,
+                            22.70013769601133,
+                            0
+                        ],
+                        [
+                            120.3707539409031,
+                            22.70085989154778,
+                            0
+                        ],
+                        [
+                            120.3708198153652,
+                            22.70107932817126,
+                            0
+                        ],
+                        [
+                            120.3687679190593,
+                            22.70152599858094,
+                            0
+                        ],
+                        [
+                            120.3687602091263,
+                            22.70127373562993,
+                            0
+                        ],
+                        [
+                            120.3684281198193,
+                            22.70082169178111,
+                            0
+                        ],
+                        [
+                            120.3681697777429,
+                            22.70078345911018,
+                            0
+                        ],
+                        [
+                            120.3678800030338,
+                            22.70082782656279,
+                            0
+                        ],
+                        [
+                            120.3676712807911,
+                            22.70066579686561,
+                            0
+                        ],
+                        [
+                            120.3676188970824,
+                            22.70041344853357,
+                            0
+                        ],
+                        [
+                            120.3673035119227,
+                            22.70020548031675,
+                            0
+                        ],
+                        [
+                            120.3674478926857,
+                            22.69979253503768,
+                            0
+                        ],
+                        [
+                            120.3673074174538,
+                            22.69934965113337,
+                            0
+                        ],
+                        [
+                            120.3675288193905,
+                            22.69922870510293,
+                            0
+                        ],
+                        [
+                            120.368362400104,
+                            22.69871075797808,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "高雄縣仁武垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>高雄縣仁武垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>18</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>S2202553</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>高雄縣仁武焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>高雄縣仁武垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00019"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.4421395279372,
+                            23.44431588357959,
+                            0
+                        ],
+                        [
+                            120.4411954112426,
+                            23.44426011999246,
+                            0
+                        ],
+                        [
+                            120.4413686866712,
+                            23.44338212247192,
+                            0
+                        ],
+                        [
+                            120.4414240598774,
+                            23.44315278246705,
+                            0
+                        ],
+                        [
+                            120.4416102709464,
+                            23.44301989513236,
+                            0
+                        ],
+                        [
+                            120.442700018029,
+                            23.44330761604395,
+                            0
+                        ],
+                        [
+                            120.44264460426,
+                            23.44408842253989,
+                            0
+                        ],
+                        [
+                            120.4421830707709,
+                            23.44408351844665,
+                            0
+                        ],
+                        [
+                            120.4421395279372,
+                            23.44431588357959,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "嘉義市垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>嘉義市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>19</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>I2604550</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>嘉義市焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>嘉義市湖仔內巷741號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>05-2251775</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>嘉義市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00020"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.6017009534117,
+                            23.77986238392676,
+                            0
+                        ],
+                        [
+                            120.6013385302298,
+                            23.77965374680305,
+                            0
+                        ],
+                        [
+                            120.6012896061901,
+                            23.77960847113234,
+                            0
+                        ],
+                        [
+                            120.6003193674724,
+                            23.77921763283669,
+                            0
+                        ],
+                        [
+                            120.59955373529,
+                            23.77930591617572,
+                            0
+                        ],
+                        [
+                            120.5998092971377,
+                            23.77916211278295,
+                            0
+                        ],
+                        [
+                            120.599948653788,
+                            23.77851232732552,
+                            0
+                        ],
+                        [
+                            120.6002431317694,
+                            23.77847698297421,
+                            0
+                        ],
+                        [
+                            120.6006553577331,
+                            23.77844195256379,
+                            0
+                        ],
+                        [
+                            120.6009490363154,
+                            23.77866846578371,
+                            0
+                        ],
+                        [
+                            120.601194425552,
+                            23.77864202243751,
+                            0
+                        ],
+                        [
+                            120.6019300684926,
+                            23.7787342537098,
+                            0
+                        ],
+                        [
+                            120.6020868446246,
+                            23.77880690435203,
+                            0
+                        ],
+                        [
+                            120.6021553413952,
+                            23.77887029410092,
+                            0
+                        ],
+                        [
+                            120.6026358692146,
+                            23.77896185004395,
+                            0
+                        ],
+                        [
+                            120.6028037724628,
+                            23.77860109443255,
+                            0
+                        ],
+                        [
+                            120.6038501628528,
+                            23.77976867678713,
+                            0
+                        ],
+                        [
+                            120.6034481267759,
+                            23.77967732981197,
+                            0
+                        ],
+                        [
+                            120.6022895878501,
+                            23.77990004618985,
+                            0
+                        ],
+                        [
+                            120.6017009534117,
+                            23.77986238392676,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "雲林縣林內垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>雲林縣林內垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>20</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>雲林縣林內鄉焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>雲林縣林內垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>施工中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00021"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.836493036764,
+                            24.66195102390894,
+                            0
+                        ],
+                        [
+                            121.8345524314536,
+                            24.6614876618498,
+                            0
+                        ],
+                        [
+                            121.8345674137026,
+                            24.66133427139715,
+                            0
+                        ],
+                        [
+                            121.835390028719,
+                            24.65876555982635,
+                            0
+                        ],
+                        [
+                            121.8355081544374,
+                            24.65870170229131,
+                            0
+                        ],
+                        [
+                            121.8371673373672,
+                            24.65910351524525,
+                            0
+                        ],
+                        [
+                            121.8365695705499,
+                            24.66190148099644,
+                            0
+                        ],
+                        [
+                            121.836493036764,
+                            24.66195102390894,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "宜蘭縣利澤垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>宜蘭縣利澤垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>21</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>G3801239</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>宜蘭縣利澤廠焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>宜蘭縣利澤垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00022"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.4949659793623,
+                            22.49869652290896,
+                            0
+                        ],
+                        [
+                            120.4958464246592,
+                            22.49886761258436,
+                            0
+                        ],
+                        [
+                            120.4967555108737,
+                            22.4989153242814,
+                            0
+                        ],
+                        [
+                            120.4990069804936,
+                            22.49934512291838,
+                            0
+                        ],
+                        [
+                            120.4989661587001,
+                            22.49950575873115,
+                            0
+                        ],
+                        [
+                            120.4991551842598,
+                            22.49953255452711,
+                            0
+                        ],
+                        [
+                            120.499130758015,
+                            22.49962216512065,
+                            0
+                        ],
+                        [
+                            120.4995609261518,
+                            22.49969461588721,
+                            0
+                        ],
+                        [
+                            120.4995484787415,
+                            22.49980296165014,
+                            0
+                        ],
+                        [
+                            120.4998058679694,
+                            22.49984487657486,
+                            0
+                        ],
+                        [
+                            120.4986317109622,
+                            22.50076095359399,
+                            0
+                        ],
+                        [
+                            120.4971761528961,
+                            22.50049465080806,
+                            0
+                        ],
+                        [
+                            120.4969188442336,
+                            22.5004564355658,
+                            0
+                        ],
+                        [
+                            120.4967500319518,
+                            22.50040359781792,
+                            0
+                        ],
+                        [
+                            120.4966377107745,
+                            22.50031725597631,
+                            0
+                        ],
+                        [
+                            120.4965375924779,
+                            22.50018976245654,
+                            0
+                        ],
+                        [
+                            120.4964295742925,
+                            22.500043549905,
+                            0
+                        ],
+                        [
+                            120.4963090624058,
+                            22.49996467801348,
+                            0
+                        ],
+                        [
+                            120.4961326132457,
+                            22.49982203985869,
+                            0
+                        ],
+                        [
+                            120.4960001495051,
+                            22.49974303734402,
+                            0
+                        ],
+                        [
+                            120.4958594086929,
+                            22.49972018468574,
+                            0
+                        ],
+                        [
+                            120.4957549482956,
+                            22.49968995418936,
+                            0
+                        ],
+                        [
+                            120.4956544453088,
+                            22.49964103902356,
+                            0
+                        ],
+                        [
+                            120.4948677461584,
+                            22.4991636117302,
+                            0
+                        ],
+                        [
+                            120.4949659793623,
+                            22.49869652290896,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "屏東縣崁頂垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>屏東縣崁頂垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>22</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>T5900246</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>屏東縣崁頂焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td>屏東縣崁頂鄉中正路881號</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td>08-7351923</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>屏東縣崁頂垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00023"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.7753984603615,
+                            25.12196712799447,
+                            0
+                        ],
+                        [
+                            121.7758686151585,
+                            25.12213194481975,
+                            0
+                        ],
+                        [
+                            121.7765581625901,
+                            25.12238462131543,
+                            0
+                        ],
+                        [
+                            121.7767621002917,
+                            25.12249025113459,
+                            0
+                        ],
+                        [
+                            121.7768407516459,
+                            25.12257171657475,
+                            0
+                        ],
+                        [
+                            121.7769171262166,
+                            25.12290577267003,
+                            0
+                        ],
+                        [
+                            121.7769948981167,
+                            25.12346053505644,
+                            0
+                        ],
+                        [
+                            121.776467719553,
+                            25.12353090064484,
+                            0
+                        ],
+                        [
+                            121.7757722933809,
+                            25.12358788669673,
+                            0
+                        ],
+                        [
+                            121.7753938632539,
+                            25.12370730730269,
+                            0
+                        ],
+                        [
+                            121.7752490817696,
+                            25.12369027915603,
+                            0
+                        ],
+                        [
+                            121.7752209757213,
+                            25.12357298029089,
+                            0
+                        ],
+                        [
+                            121.774939127483,
+                            25.12350331854893,
+                            0
+                        ],
+                        [
+                            121.7745819465214,
+                            25.12265113154343,
+                            0
+                        ],
+                        [
+                            121.7745891966719,
+                            25.12255856602686,
+                            0
+                        ],
+                        [
+                            121.7746394050719,
+                            25.12246938709526,
+                            0
+                        ],
+                        [
+                            121.774709397294,
+                            25.12240493002732,
+                            0
+                        ],
+                        [
+                            121.774818572844,
+                            25.12235805088062,
+                            0
+                        ],
+                        [
+                            121.774989632824,
+                            25.12221841256774,
+                            0
+                        ],
+                        [
+                            121.7752268411547,
+                            25.12201785314705,
+                            0
+                        ],
+                        [
+                            121.7753593719697,
+                            25.12196381165972,
+                            0
+                        ],
+                        [
+                            121.7753984603615,
+                            25.12196712799447,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "基隆市垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>基隆市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>23</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>C1600321</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>基隆市焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>基隆市垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00024"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.2814267006614,
+                            23.03902366704712,
+                            0
+                        ],
+                        [
+                            120.28360248505,
+                            23.03959742236429,
+                            0
+                        ],
+                        [
+                            120.2831779778693,
+                            23.04142506225069,
+                            0
+                        ],
+                        [
+                            120.2808634012044,
+                            23.04083278538597,
+                            0
+                        ],
+                        [
+                            120.2814267006614,
+                            23.03902366704712,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台南縣永康垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台南縣永康垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>24</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>R1407702</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台南縣永康焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台南縣永康垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>使用中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00025"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.1356805123803,
+                            22.73030139100634,
+                            0
+                        ],
+                        [
+                            121.1362512745332,
+                            22.73076769210135,
+                            0
+                        ],
+                        [
+                            121.1363860871405,
+                            22.73064331385195,
+                            0
+                        ],
+                        [
+                            121.1361277371948,
+                            22.73037718115647,
+                            0
+                        ],
+                        [
+                            121.1364119511813,
+                            22.73021548221043,
+                            0
+                        ],
+                        [
+                            121.1365254198584,
+                            22.73026398218867,
+                            0
+                        ],
+                        [
+                            121.1367038212806,
+                            22.73031306415975,
+                            0
+                        ],
+                        [
+                            121.1370302154471,
+                            22.73057282311467,
+                            0
+                        ],
+                        [
+                            121.1372861636475,
+                            22.73086713590327,
+                            0
+                        ],
+                        [
+                            121.1374478028407,
+                            22.73119258798061,
+                            0
+                        ],
+                        [
+                            121.1371694302789,
+                            22.73145462563359,
+                            0
+                        ],
+                        [
+                            121.1366906431334,
+                            22.73097245128743,
+                            0
+                        ],
+                        [
+                            121.1349033585851,
+                            22.73264533664501,
+                            0
+                        ],
+                        [
+                            121.1344931427941,
+                            22.73238844719841,
+                            0
+                        ],
+                        [
+                            121.1341545466209,
+                            22.73210116228679,
+                            0
+                        ],
+                        [
+                            121.1341789327244,
+                            22.7319473380701,
+                            0
+                        ],
+                        [
+                            121.134354886375,
+                            22.73167589741808,
+                            0
+                        ],
+                        [
+                            121.1341332230839,
+                            22.73149400368661,
+                            0
+                        ],
+                        [
+                            121.1343490960243,
+                            22.7312238850818,
+                            0
+                        ],
+                        [
+                            121.1343970840247,
+                            22.73111682439375,
+                            0
+                        ],
+                        [
+                            121.1347385888215,
+                            22.73139471953651,
+                            0
+                        ],
+                        [
+                            121.1351325805699,
+                            22.73108600095484,
+                            0
+                        ],
+                        [
+                            121.1356111175714,
+                            22.7305197351826,
+                            0
+                        ],
+                        [
+                            121.135578442332,
+                            22.73046015181404,
+                            0
+                        ],
+                        [
+                            121.1356805123803,
+                            22.73030139100634,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "台東縣垃圾資源回收廠",
+                "styleUrl": "#PolyStyle01",
+                "styleHash": "-75c42f29",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n</head>\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\r\r\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\r\r\n<td>台東縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>\r\r\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\r\r\n<tr>\r\r\n<td>FID</td>\r\r\n<td>25</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>EPANO</td>\r\r\n<td>V7506199</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>INCINER_NA</td>\r\r\n<td>台東縣焚化廠</td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>ADDRESS</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>TEL</td>\r\r\n<td></td>\r\r\n</tr>\r\r\n<tr bgcolor=\"#D4E4F3\">\r\r\n<td>CY_NAME</td>\r\r\n<td>台東縣垃圾資源回收廠</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td>SITUATION</td>\r\r\n<td>施工中</td>\r\r\n</tr>\r\r\n</table>\r\r\n</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</html>\r\r\n",
+                "stroke": "#6e6e6e",
+                "stroke-opacity": 1,
+                "stroke-width": 0.4,
+                "fill": "#e9facd",
+                "fill-opacity": 1
+            },
+            "id": "ID_00026"
+        }
+    ]
+}
