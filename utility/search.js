@@ -1,22 +1,28 @@
-var geocoder = require('./findAddress.js');
-var search = function(address, data){
-    var min = 99999999;
-    var fdata;
-    geocoder.geocode(address, function(err, res){
-        if(err) console.log(err);
-        else{
-            var lat = parseFloat(res[0].latitude);
-            var lon = parseFloat(res[0].longitude);
-            for(var i of data){
-                var tmp = (Math.pow(lat-i.lat, 2) + Math.pow(lon-i.lng, 2));
-                if(tmp<min){
-                    min = tmp;
-                    fdata = i.data;
-                }
-            }
+const geocoder = require('./findAddress.js');
+
+const disCalc = (latA, lngA, latB, lngB) => (
+	Math.sqrt(Math.pow(latA-latB, 2) + Math.pow(lngA-lngB, 2))
+);
+
+// search(address:String, data: [{lat:Number, lng:Number}], d:Number):
+// calculate how many items are around the address in the distance(degrees)
+const search = function(address, data, distance) {
+    return geocoder.geocode(address).then((res) => {
+    	if(res.length < 1) {
+    		throw new Error("Geocoding API has no result for the address.");
+    	}
+
+        const lat = res[0].latitude;
+        const lng = res[0].longitude;
+
+        var counter = 0;
+        for(const item of data) {
+        	if(disCalc(lat, lng, item.lat, item.lng) < distance) {
+        		counter++;
+        	}
         }
-        console.log("最近的", fdata);
+        return counter;
     });
-    return fdata;
-}
+};
+
 module.exports = search;
