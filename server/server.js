@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     var address = req.body.address;
     var tmp = search(address, med, 0.01, function(result){
-    	res.render('result', {mednum: result.length, med: result});
+    	res.render('result', {address: address, mednum: result.length, med: result});
     });
 });
 
