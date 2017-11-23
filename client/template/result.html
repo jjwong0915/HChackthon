@@ -25,19 +25,9 @@
       </nav>
       <div class="section no-pad-bot" id="index-banner">
         <div class="container">
-          <br><br>
-          <h1 class="header center orange-text">Search</h1>
-          <form class="col s12" action="/" method="post">
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="address" type="text" name="address" class="validate orange-text">
-                <label class="orange-text" for="address">Address</label>
-              </div>
-            </div>
-            <div class="row center">
-              <input class="btn orange waves-effect waves-light" type="submit" value="submit">
-            </div>
-          </form>
+          <div class="raw">
+            <h1>Result</h1>
+          </div>
         </div>
       </div>
 
@@ -47,7 +37,26 @@
 
           <!--   Icon Section   -->
           <div class="row">
-            
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{mednum}} 家醫院</div>
+                <div class="collapsible-body whilte"><span>
+                {{#med}}
+                  {{#.}}
+                    {{name}} <br>
+                  {{/.}}
+                {{/med}}
+                </span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+            </ul>
           </div>
 
         </div>
@@ -92,16 +101,9 @@
 
 
       <!--  Scripts-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>/init.js
       <script src="/init.js"></script>
-      
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $('.collapsible').collapsible();
-        });
-
-      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     </body>
   </html>
