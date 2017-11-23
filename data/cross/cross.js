@@ -1,6 +1,7 @@
+let fs = require('fs');
 var cross = require('./raw_cross.json');
 cross = cross.CROSSING.NODE;
-data = [];
+var data = [];
 for (var i of cross) {
     if(i.POS!='NULL'){
         var tmp = i.POS.split(",");
@@ -9,4 +10,13 @@ for (var i of cross) {
         data.push({lat: parseFloat(tmp[0]), lng: parseFloat(tmp[1]), data: i});
     }
 }
-module.exports = data;
+
+
+
+fs.writeFile("./data.json", JSON.stringify(data), (err) => {
+    if (err) {
+        console.error(err);
+        return;
+    };
+    console.log("File has been created");
+});
