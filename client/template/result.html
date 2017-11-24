@@ -1,116 +1,121 @@
- <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<!DOCTYPE html>
+<html lang="zh-TW">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>很厲害的專案</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</head>
 
-    <body>
-      <nav class="orange" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Logo</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
-          </ul>
-
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Navbar Link</a></li>
-          </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-
-      <div class="container ">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            {{#target}}
-            <h3>{{address}}</h3>
-              {{#coordinate}}
-                <h4>{{lat}}</h4>
-                <h4>{{lng}}</h4>
-              {{/coordinate}}
-            <h3>{{uvi}}</h3>
-            {{/target}}
-            {{#data}}
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{medical.length}} 家醫院</div>
-                <div class="collapsible-body whilte"><span>
-                {{#medical}}
-                    {{data.name}} <br>
-                {{/medical}}
-                </span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{trash.length}} 台垃圾車會停</div>
-                <div class="collapsible-body whilte"><span>
-                {{#trash}}
-                    {{distance}} {{data.carNumber}}<br>
-                {{/trash}}
-                </span></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{bdx.length}} 座變電所</div>
-                <div class="collapsible-body whilte"><span>
-                {{#bdx}}
-                    {{data.name}} <br>
-                {{/bdx}}
-                </span></div>
-              </li>
+<body>
+    <main class="resultmain">
+        <div class="tabs-bar">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" id="posTab" data-toggle="tab" href="#pos">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span>您的位置</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#medical">
+                        <i class="fa fa-h-square" aria-hidden="true"></i>
+                        <span style="display:none;">醫院 ({{mednum}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#trash">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                        <span style="display:none;">垃圾車 ({{trashnum}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#bdx">
+                        <i class="fa fa-bolt" aria-hidden="true"></i>
+                        <span style="display:none;">變電所 ({{bdxnum}})</span>
+                    </a>
+                </li>
             </ul>
-            {{/data}}
-          </div>
+            <form action="/" method="post" class="second-search">
+                <input type="text" name="address" placeholder="Search..."></input>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-search"></i> 搜尋
+                </button>
+            </form>
+            <form action="/" class="second-search">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-home"></i> 首頁
+                </button>
+            </form>
         </div>
-        <br><br>
-      </div>
-
-      <footer class="page-footer orange">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Company Bio</h5>
-              <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="tab-split">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="pos">
+                    {{#target}}
+                    <h2>{{address}}</h2>
+                    {{#coordinate}}
+                    <h3>{{lat}}</h3>
+                    <h3>{{lng}}</h3>
+                    {{/coordinate}} {{/target}}
+                </div>
+                {{#data}}
+                <div class="tab-pane fade show" id="medical">
+                    <div class="nav flex-column nav-pills">
+                        {{#medical}}
+                        <a class="nav-link" data-toggle="pill" href="#" data=" {{data.name}}"> {{data.name}}</a>
+                        {{/medical}}
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="trash">
+                    <div class="nav flex-column nav-pills">
+                        {{#trash}}
+                        <a class="nav-link" data-toggle="pill" href="#" data="{{data.carNumber}}">{{data.carNumber}}</a>
+                        {{/trash}}
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="bdx">
+                    <div class="nav flex-column nav-pills">
+                        {{#bdx}}
+                        <a class="nav-link" data-toggle="pill" href="#" data="{{data.name}}">{{data.name}}</a>
+                        {{/bdx}}
+                    </div>
+                </div>
+                {{/data}}
             </div>
-            <div class="col l3 s12">
-              <h5 class="white-text">Settings</h5>
-              <ul>
-                <li><a class="white-text" href="#!">Link 1</a></li>
-                <li><a class="white-text" href="#!">Link 2</a></li>
-                <li><a class="white-text" href="#!">Link 3</a></li>
-                <li><a class="white-text" href="#!">Link 4</a></li>
-              </ul>
+            <div class="detail">
+                <iframe id="gmapiframe" width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q=交通大學"
+                    allowfullscreen>
+                </iframe>
             </div>
-            <div class="col l3 s12">
-              <h5 class="white-text">Connect</h5>
-              <ul>
-                <li><a class="white-text" href="#!">Link 1</a></li>
-                <li><a class="white-text" href="#!">Link 2</a></li>
-                <li><a class="white-text" href="#!">Link 3</a></li>
-                <li><a class="white-text" href="#!">Link 4</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-          </div>
-        </div>
-      </footer>
+    </main>
 
+</body>
+<script>
+    $("ul.nav-tabs a").click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+        $("ul.nav-tabs span").not('.active').hide();
+        $(this).children('span').show();
+        if ($(this).attr('id') == 'posTab') {
+            $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q=交通大學');
+        }
+    });
+    $("div.nav-pills a").click(function (e) {
+        e.preventDefault();
+        $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&center=24.7890,120.9993&zoom=15&q=' + $(this).attr('data').replace(' ', '+'));
+    });
+</script>
 
-      <!--  Scripts-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="/init.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-    </body>
-  </html>
+</html>
