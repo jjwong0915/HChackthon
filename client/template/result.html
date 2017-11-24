@@ -42,8 +42,12 @@
                 </span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{trashnum}} 台垃圾車會停</div>
+                <div class="collapsible-body whilte"><span>
+                {{#trash}}
+                    {{.}} <br>
+                {{/trash}}
+                </span></div>
               </li>
               <li>
                 <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>

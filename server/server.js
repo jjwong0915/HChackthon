@@ -8,6 +8,7 @@ let app = express();
 let bodyParser = require('body-parser');
 let search = require('../utility/search.js');
 var med = require('../data/medical/data.json');
+var trash = require('../data/trash-car/data.json');
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -23,8 +24,25 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     var address = req.body.address;
-    var tmp = search(address, med, 0.01, function(result){
-    	res.render('result', {address: address, mednum: result.length, med: result});
+    Promise.all([
+        search(address, med, 0.01),
+        search(address, trash, 0.01)
+    ])
+    .then((result) => {
+        var trashset = new Set();
+        for (const item of result[1]) {
+            if(item.carNumber!=""&&item.order!=""){
+                var tmp = item.carNumber + " " + item.order;
+                trashset.add(tmp);
+            }
+        }
+        res.render('result', {address: address,
+            mednum: result[0].length, med: result[0],
+            trashnum: trashset.size, trash: Array.from(trashset)
+        });
+    })
+    .catch((err) => {
+        console.log(err);
     });
 });
 
