@@ -7,8 +7,10 @@ let cons = require('consolidate');
 let app = express();
 let bodyParser = require('body-parser');
 let search = require('../utility/search.js');
+
 var med = require('../data/medical/data.json');
 var trash = require('../data/trash-car/data.json');
+var bdx = require('../data/eletronic-device/data.json');
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -26,7 +28,8 @@ app.post('/', (req, res) => {
     var address = req.body.address;
     Promise.all([
         search(address, med, 0.01),
-        search(address, trash, 0.01)
+        search(address, trash, 0.01),
+        search(address, bdx, 1)
     ])
     .then((result) => {
         var trashset = new Set();
@@ -38,7 +41,8 @@ app.post('/', (req, res) => {
         }
         res.render('result', {address: address,
             mednum: result[0].length, med: result[0],
-            trashnum: trashset.size, trash: Array.from(trashset)
+            trashnum: trashset.size, trash: Array.from(trashset),
+            bdxnum: result[2].length, bdx: result[2]
         });
     })
     .catch((err) => {
