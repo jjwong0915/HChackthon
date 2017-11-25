@@ -1,29 +1,30 @@
-const geocoder = require('./findAddress.js');
+'use strict';
 
-const disCalc = (latA, lngA, latB, lngB) => (
-	Math.sqrt(Math.pow(latA-latB, 2) + Math.pow(lngA-lngB, 2))
-);
+const disCalc = (latA, lngA, latB, lngB) => {
+    const kmPerLat = 110.75;
+    const kmPerLng = 101.75;
 
-// search(address:String, data: [{lat:Number, lng:Number}], d:Number):
-// calculate how many items are around the address in the distance(degrees)
-const search = function(address, data, distance, callback) {
-    return geocoder.geocode(address).then((res) => {
-        if(res.length < 1) {
-            throw new Error("Geocoding API has no result for the address.");
+    const latDiff = (latA-latB)*kmPerLat;
+    const lngDiff = (lngA-lngB)*kmPerLat;
+
+	return Math.sqrt(Math.pow(latDiff, 2) + Math.pow(lngDiff, 2));
+};
+
+// search(
+//     coordinate:{lat:Number, lng:Number}, 
+//     data:[{lat:Number, lng:Number}], 
+//     distance:Number
+// ):[Object]
+// calculate how many items are around the coordinate in the distance(km)
+const search = (coordinate, data, distance) => {
+    let result = [];
+    
+    for(const item of data) {
+        if(disCalc(coordinate.lat, coordinate.lng, item.lat, item.lng) <= distance) {
+            result.push(item.data);
         }
-
-        const lat = res[0].latitude;
-        const lng = res[0].longitude;
-        
-        const result = [];
-        for(const item of data) {
-            if(disCalc(lat, lng, item.lat, item.lng) < distance) {
-                result.push(item.data);
-            }
-        }
-
-        return result;
-    });
+    }
+    return result;
 };
 
 module.exports = search;
