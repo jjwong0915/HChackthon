@@ -6,6 +6,7 @@ let cons = require('consolidate');
 
 let app = express();
 let bodyParser = require('body-parser');
+let findCoordinate = require('../utility/findCoordinate.js');
 let search = require('../utility/search.js');
 
 var med = require('../data/medical/data.json');
@@ -26,23 +27,24 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     var address = req.body.address;
-    Promise.all([
-        search(address, med, 0.01),
-        search(address, trash, 0.01),
-        search(address, bdx, 1)
-    ])
-    .then((result) => {
+    findCoordinate(address)
+    .then((coor) => {
+        const medResult = search(coor, med, 1);
+        const trashResult = search(coor, trash, 0.5);
+        const bdxResult = search(coor, bdx, 5);
+
         var trashset = new Set();
-        for (const item of result[1]) {
+        for (const item of trashResult) {
             if(item.carNumber!=""&&item.order!=""){
                 var tmp = item.carNumber + " " + item.order;
                 trashset.add(tmp);
             }
         }
+
         res.render('result', {address: address,
-            mednum: result[0].length, med: result[0],
+            mednum: medResult.length, med: medResult,
             trashnum: trashset.size, trash: Array.from(trashset),
-            bdxnum: result[2].length, bdx: result[2]
+            bdxnum: bdxResult.length, bdx: bdxResult
         });
     })
     .catch((err) => {
