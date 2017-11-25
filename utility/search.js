@@ -20,8 +20,16 @@ const search = (coordinate, data, distance) => {
     let result = [];
     
     for(const item of data) {
-        if(disCalc(coordinate.lat, coordinate.lng, item.lat, item.lng) <= distance) {
-            result.push(item.data);
+        var dis = disCalc(coordinate.lat, coordinate.lng, item.lat, item.lng);
+        if(dis <= distance) {
+            result.push({
+                distance: dis,
+                coordinate: {
+                    lat: item.lat,
+                    lng: item.lng
+                },
+                data: item.data
+            });
         }
     }
     return result;

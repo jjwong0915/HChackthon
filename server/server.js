@@ -9,6 +9,8 @@ let bodyParser = require('body-parser');
 let findCoordinate = require('../utility/findCoordinate.js');
 let search = require('../utility/search.js');
 
+let uniqueTrash = require('../server/unique-trash.js');
+
 var med = require('../data/medical/data.json');
 var trash = require('../data/trash-car/data.json');
 var bdx = require('../data/eletronic-device/data.json');
@@ -30,21 +32,19 @@ app.post('/', (req, res) => {
     findCoordinate(address)
     .then((coor) => {
         const medResult = search(coor, med, 1);
-        const trashResult = search(coor, trash, 0.5);
+        const trashResult = uniqueTrash(search(coor, trash, 0.5));
         const bdxResult = search(coor, bdx, 5);
 
-        var trashset = new Set();
-        for (const item of trashResult) {
-            if(item.carNumber!=""&&item.order!=""){
-                var tmp = item.carNumber + " " + item.order;
-                trashset.add(tmp);
-            }
-        }
-
-        res.render('result', {address: address,
-            mednum: medResult.length, med: medResult,
-            trashnum: trashset.size, trash: Array.from(trashset),
-            bdxnum: bdxResult.length, bdx: bdxResult
+        res.render('result', {
+            target: {
+                address: address,
+                coordinate: coor
+            },
+           data: {
+                medical: medResult,
+                trash: trashResult,
+                bdx: bdxResult
+           }
         });
     })
     .catch((err) => {

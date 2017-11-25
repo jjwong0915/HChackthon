@@ -29,37 +29,41 @@
 
           <!--   Icon Section   -->
           <div class="row">
+            {{#target}}
             <h3>{{address}}</h3>
+              {{#coordinate}}
+                <h4>{{lat}}</h4>
+                <h4>{{lng}}</h4>
+              {{/coordinate}}
+            {{/target}}
+            {{#data}}
             <ul class="collapsible" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{mednum}} 家醫院</div>
+                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{medical.length}} 家醫院</div>
                 <div class="collapsible-body whilte"><span>
-                {{#med}}
-                  {{#.}}
-                    {{name}} <br>
-                  {{/.}}
-                {{/med}}
+                {{#medical}}
+                    {{data.name}} <br>
+                {{/medical}}
                 </span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{trashnum}} 台垃圾車會停</div>
+                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{trash.length}} 台垃圾車會停</div>
                 <div class="collapsible-body whilte"><span>
                 {{#trash}}
-                    {{.}} <br>
+                    {{distance}} {{data.carNumber}}<br>
                 {{/trash}}
                 </span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{bdxnum}} 座變電所</div>
+                <div class="collapsible-header"><i class="material-icons">local_hospital</i>總共有 {{bdx.length}} 座變電所</div>
                 <div class="collapsible-body whilte"><span>
                 {{#bdx}}
-                  {{#.}}
-                    {{name}} <br>
-                  {{/.}}
+                    {{data.name}} <br>
                 {{/bdx}}
                 </span></div>
               </li>
             </ul>
+            {{/data}}
           </div>
         </div>
         <br><br>
