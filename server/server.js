@@ -33,19 +33,26 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     var address = req.body.address;
-    findCoordinate(address)
-    .then((coor) => {
+    Promise.all([
+        findCoordinate(address),
+        uv()
+    ])    
+    .then((result) => {
+        const coor = result[0];
+        const uvi = result[1];
+
         const medResult = search(coor, med, 1);
         const trashResult = uniqueTrash(search(coor, trash, 0.5));
         const bdxResult = search(coor, bdx, 5);
         const poluResult = search(coor, polution, 1);
-        const cameraResult = camera(address);
+        const cameraResult = {data: camera(address)};
         const ubikeResult = search(coor, ubike, 0.5);
 
         res.render('result', {
             target: {
                 address: address,
-                coordinate: coor
+                coordinate: coor,
+                uvi: uvi
             },
             data: {
                 medical: medResult,

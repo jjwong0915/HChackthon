@@ -1,18 +1,16 @@
 var rp = require('request-promise');
 
-const r = (res) => {
-    return rp(res)
-    .then(function (htmlString) {
-        htmlString = JSON.parse(htmlString);
-        for (const item of htmlString) {
+const uv = () => {
+    return rp('http://opendata2.epa.gov.tw/UV/UV.json')
+    .then((body) => {
+        const data = JSON.parse(body);
+        for (const item of data) {
             if(item.County=="新竹縣"){
                 return item.UVI;
             }
         }
-        return htmlString;
-    })
-    .catch(function (err) {
-        console.log(err);
+        throw new Error("HsinChu UV data has not found.");
     });
 }
-module.exports = r;
+
+module.exports = uv;
