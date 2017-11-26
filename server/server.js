@@ -17,6 +17,7 @@ var bdx = require('../data/eletronic-device/data.json');
 var camera = require('../utility/camera.js');
 var uv = require('../utility/uv.js');
 var polution = require('../data/polu/data.json');
+var ubike = require('../data/ubike/Data.json');
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -39,6 +40,7 @@ app.post('/', (req, res) => {
         const bdxResult = search(coor, bdx, 5);
         const poluResult = search(coor, polution, 1);
         const cameraResult = camera(address);
+        const ubikeResult = search(coor, ubike, 0.5);
 
         res.render('result', {
             target: {
@@ -50,7 +52,8 @@ app.post('/', (req, res) => {
                 trash: trashResult,
                 bdx: bdxResult,
                 polution: poluResult,
-                camera: cameraResult
+                camera: cameraResult,
+                ubike: ubikeResult
             }
         });
     })
