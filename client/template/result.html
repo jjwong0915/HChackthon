@@ -16,6 +16,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+    <script src="/javascript/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&callback=initMap"></script>
 </head>
 
 <body>
@@ -44,6 +46,30 @@
                     <a class="nav-link" data-toggle="tab" href="#bdx">
                         <i class="fa fa-bolt" aria-hidden="true"></i>
                         <span style="display:none;">變電所 ({{data.bdx.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#polu">
+                        <i class="fa fa-tint" aria-hidden="true"></i>
+                        <span style="display:none;">汙染源 ({{data.polution.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#camera">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                        <span style="display:none;">監視器 ({{data.camera.data.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ubike">
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                        <span style="display:none;">uBike ({{data.ubike.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#speed">
+                        <i class="fa fa-ban" aria-hidden="true"></i>
+                        <span style="display:none;">測速照相 ({{data.speed.length}})</span>
                     </a>
                 </li>
             </ul>
@@ -92,30 +118,72 @@
                         {{/bdx}}
                     </div>
                 </div>
+                <div class="tab-pane fade" id="polu">
+                    <div class="nav flex-column nav-pills">
+                        {{#polu}}
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                        {{/polu}}
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="camera">
+                    <div class="nav flex-column nav-pills">
+                        {{#camera.data}}
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{position}}</a>
+                        {{/camera.data}}
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ubike">
+                    <div class="nav flex-column nav-pills">
+                        {{#ubike}}
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                        {{/ubike}}
+                        </div>
+                    </div>
+                <div class="tab-pane fade" id="speed">
+                <div class="nav flex-column nav-pills">
+                    {{#speed}}
+                    <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.position}}</a>
+                    {{/speed}}
+                    </div>
+                </div>
                 {{/data}}
             </div>
             <div class="detail">
-                <iframe id="gmapiframe" width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q={{target.coordinate.lat}},{{target.coordinate.lng}}"
-                    allowfullscreen>
-                </iframe>
+                <div id="map">
+                </div>
             </div>
-        </div>
     </main>
 
 </body>
 <script>
+    var map;
+    var marker;
     $("ul.nav-tabs a").click(function (e) {
         e.preventDefault();
         $(this).tab('show');
         $("ul.nav-tabs span").not('.active').hide();
         $(this).children('span').show();
         if ($(this).attr('id') == 'posTab') {
-            $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q={{target.coordinate.lat}},{{target.coordinate.lng}}');
+            marker.setVisible(false);
         }
     });
+
+    function initMap() {
+        var targetLat = {{target.coordinate.lat}};
+        var targetLng = {{target.coordinate.lng}};
+        var target = { lat: targetLat, lng: targetLng };
+        map = new google.maps.Map(document.getElementById('map'), { zoom: 14, center: target });
+        var targetmarker = new google.maps.Marker({ position: target, map: map });
+        targetmarker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=U|FE7569')
+        marker = new google.maps.Marker({ position: target, map: map });
+        marker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=T|FDD835')
+        marker.setVisible(false);
+    }
     $("div.nav-pills a").click(function (e) {
         e.preventDefault();
-        $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&center={{target.coordinate.lat}},{{target.coordinate.lng}}&zoom=14&q=' + $(this).attr('lat') + ',' + $(this).attr('lng'));
+        var latlng = new google.maps.LatLng(Number($(this).attr('lat')), Number($(this).attr('lng')));
+        marker.setVisible(true);
+        marker.setPosition(latlng);
     });
 </script>
 
