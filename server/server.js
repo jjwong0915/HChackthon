@@ -14,6 +14,9 @@ let uniqueTrash = require('../server/unique-trash.js');
 var med = require('../data/medical/data.json');
 var trash = require('../data/trash-car/data.json');
 var bdx = require('../data/eletronic-device/data.json');
+var camera = require('../utility/camera.js');
+var uv = require('../utility/uv.js');
+var polution = require('../data/polu/data.json');
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -34,17 +37,21 @@ app.post('/', (req, res) => {
         const medResult = search(coor, med, 1);
         const trashResult = uniqueTrash(search(coor, trash, 0.5));
         const bdxResult = search(coor, bdx, 5);
+        const poluResult = search(coor, polution, 1);
+        const cameraResult = camera(address);
 
         res.render('result', {
             target: {
                 address: address,
                 coordinate: coor
             },
-           data: {
+            data: {
                 medical: medResult,
                 trash: trashResult,
-                bdx: bdxResult
-           }
+                bdx: bdxResult,
+                polution: poluResult,
+                camera: cameraResult
+            }
         });
     })
     .catch((err) => {
