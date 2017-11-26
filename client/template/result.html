@@ -31,19 +31,19 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#medical">
                         <i class="fa fa-h-square" aria-hidden="true"></i>
-                        <span style="display:none;">醫院 ({{mednum}})</span>
+                        <span style="display:none;">醫院 ({{data.medical.length}})</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#trash">
                         <i class="fa fa-trash" aria-hidden="true"></i>
-                        <span style="display:none;">垃圾車 ({{trashnum}})</span>
+                        <span style="display:none;">垃圾車 ({{data.trash.length}})</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#bdx">
                         <i class="fa fa-bolt" aria-hidden="true"></i>
-                        <span style="display:none;">變電所 ({{bdxnum}})</span>
+                        <span style="display:none;">變電所 ({{data.bdx.length}})</span>
                     </a>
                 </li>
             </ul>
@@ -73,28 +73,29 @@
                 <div class="tab-pane fade show" id="medical">
                     <div class="nav flex-column nav-pills">
                         {{#medical}}
-                        <a class="nav-link" data-toggle="pill" href="#" data=" {{data.name}}"> {{data.name}}</a>
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">
+                            {{data.name}}</a>
                         {{/medical}}
                     </div>
                 </div>
                 <div class="tab-pane fade" id="trash">
                     <div class="nav flex-column nav-pills">
                         {{#trash}}
-                        <a class="nav-link" data-toggle="pill" href="#" data="{{data.carNumber}}">{{data.carNumber}}</a>
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.carNumber}}</a>
                         {{/trash}}
                     </div>
                 </div>
                 <div class="tab-pane fade" id="bdx">
                     <div class="nav flex-column nav-pills">
                         {{#bdx}}
-                        <a class="nav-link" data-toggle="pill" href="#" data="{{data.name}}">{{data.name}}</a>
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
                         {{/bdx}}
                     </div>
                 </div>
                 {{/data}}
             </div>
             <div class="detail">
-                <iframe id="gmapiframe" width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q=交通大學"
+                <iframe id="gmapiframe" width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q={{target.coordinate.lat}},{{target.coordinate.lng}}"
                     allowfullscreen>
                 </iframe>
             </div>
@@ -109,12 +110,12 @@
         $("ul.nav-tabs span").not('.active').hide();
         $(this).children('span').show();
         if ($(this).attr('id') == 'posTab') {
-            $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q=交通大學');
+            $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&q={{target.coordinate.lat}},{{target.coordinate.lng}}');
         }
     });
     $("div.nav-pills a").click(function (e) {
         e.preventDefault();
-        $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&center=24.7890,120.9993&zoom=15&q=' + $(this).attr('data').replace(' ', '+'));
+        $("#gmapiframe").attr('src', 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&center={{target.coordinate.lat}},{{target.coordinate.lng}}&zoom=14&q=' + $(this).attr('lat') + ',' + $(this).attr('lng'));
     });
 </script>
 
