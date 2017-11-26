@@ -71,6 +71,12 @@
                         <span style="display:none;">測速照相 ({{data.speed.length}})</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#refuge">
+                        <i class="fa fa-fire-extinguisher" aria-hidden="true"></i>
+                        <span style="display:none;">避難所 ({{data.refuge.length}})</span>
+                    </a>
+                </li>
             </ul>
             <form action="/" method="post" class="second-search">
                 <input type="text" name="address" placeholder="Search..."></input>
@@ -139,10 +145,17 @@
                         </div>
                     </div>
                 <div class="tab-pane fade" id="speed">
-                <div class="nav flex-column nav-pills">
-                    {{#speed}}
-                    <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.position}}</a>
-                    {{/speed}}
+                    <div class="nav flex-column nav-pills">
+                        {{#speed}}
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.position}}</a>
+                         {{/speed}}
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="refuge">
+                    <div class="nav flex-column nav-pills">
+                        {{#refuge}}
+                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                        {{/refuge}}
                     </div>
                 </div>
                 {{/data}}
