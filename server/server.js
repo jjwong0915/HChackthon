@@ -76,7 +76,8 @@ app.post('/', (req, res) => {
                 var Safe = refugeNum + medNum + cameraNum + speedNum;
                 var Con = ubikeNum + trashNum;
                 var scores = {environment: -Env, safety: Safe, convenience: Con};
-                
+                console.log(firstAidResult);
+
 
                 res.render('result', {
                     target: {
