@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
     Promise.all([
         findCoordinate(address),
         uv()
-    ])    
+    ])
     .then((result) => {
         const coor = result[0];
         const uvi = result[1];
