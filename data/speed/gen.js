@@ -2,7 +2,7 @@ let speed = require('./speed.json');
 let fs = require('fs');
 data = [];
 for (const item of speed) {
-    data.push({lat: item["經度"], lng: item["緯度"], data: {position: item["地 點"], limit: item["速限"]}});
+    data.push({lat: parseFloat(item["緯度"]), lng: parseFloat(item["經度"]), data: {position: item["地 點"], limit: item["速限"]}});
 }
 
 
