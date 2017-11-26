@@ -240,7 +240,10 @@
                 var bounds = new google.maps.LatLngBounds();
                 bounds.extend(latlng);
                 bounds.extend(target);
+                var dummy = new google.maps.LatLng(target.lat*2-latlng.lat(),target.lng*2-latlng.lng());
+                bounds.extend(dummy);
                 map.fitBounds(bounds);
+                map.setCenter(target);
                 map.panToBounds(bounds);
             });
         </script>
