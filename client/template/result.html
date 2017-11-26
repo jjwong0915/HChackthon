@@ -109,14 +109,37 @@
             </form>
         </div>
         <div class="tab-split">
-            <div class="tab-content">
+            <div class="tab-content"  style="text-align:left">
                 <div class="tab-pane fade show active" id="pos">
                     {{#target}}
-                    <h2>{{address}}</h2>
+                    <br>
+                    <h6 style="text-align:center">{{address}}</h6>
+                    <hr>
+                    <ul>
                     {{#coordinate}}
-                    <h3>{{lat}}</h3>
-                    <h3>{{lng}}</h3>
-                    {{/coordinate}} {{/target}}
+                      <li>緯度：{{lat}}</li>
+                      <li>經度：{{lng}}</li>
+                    {{/coordinate}}
+                    </ul>
+                    </li>
+                    {{/target}}
+                    <hr>
+                    地點附近的生活資訊：
+                    <ul>
+                    {{#data}}
+                        <li>1公里內有{{medical.length}}所醫療機構</li>
+                        <li>5公里內有{{firstAid.length}}所急救醫院</li>
+                        <li>500公尺內有{{trash.length}}個垃圾車收集點</li>
+                        <li>5公里內有{{bdx.length}}個變電所</li>
+                        <li>1公里內有{{polution.length}}個污染源</li>
+                        <li>500公尺內有{{ubike.length}}個公共自行車租借站</li>
+                        <li>1公里內有{{speed.length}}個測速照像機</li>
+                        <li>1公里內有{{refuge.length}}個避難所</li>
+                        <li>1公里內有{{kindergarden.length}}個幼稚園</li>
+                        <li>5公里內有{{incinerator.length}}個焚化爐</li>
+                      </li>
+                    {{/data}}
+                    </ul>
                 </div>
                 {{#data}}
                 <div class="tab-pane fade show" id="medical">
@@ -125,6 +148,13 @@
                         <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">
                             {{data.name}}</a>
                             {{/medical}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="firstAid">
+                        <div class="nav flex-column nav-pills">
+                            {{#firstAid}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{name}}</a>
+                            {{/firstAid}}
                         </div>
                     </div>
                     <div class="tab-pane fade" id="trash">
@@ -204,7 +234,7 @@
                     </div>
                 </div>
             </main>
-            
+
         </body>
         <script>
             var map;
@@ -219,7 +249,7 @@
                     marker.setVisible(false);
                 }
             });
-            
+
             function initMap() {
                 var targetLat = {{target.coordinate.lat}};
                 var targetLng = {{target.coordinate.lng}};
@@ -231,7 +261,7 @@
                 marker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=T|FDD835')
                 marker.setVisible(false);
             }
-            
+
             $("div.nav-pills a").click(function (e) {
                 e.preventDefault();
                 var latlng = new google.maps.LatLng(Number($(this).attr('lat')), Number($(this).attr('lng')));
@@ -247,5 +277,5 @@
                 map.panToBounds(bounds);
             });
         </script>
-        
+
         </html>
