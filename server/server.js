@@ -20,6 +20,10 @@ var polution = require('../data/polu/data.json');
 var ubike = require('../data/ubike/Data.json');
 var speed = require('../data/speed/data.json');
 var refuge = require('../data/refuge/data.json');
+var incinerator = require('../data/incinerator/data.json');
+var firstAid = require('../data/firstAidHospital/data.json');
+var kindergarden = require('../data/kindergarden/Data.json');
+
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -55,6 +59,9 @@ app.post('/', (req, res) => {
                 const ubikeResult = search(coor, ubike, 0.5);
                 const speedResult = search(coor, speed, 1);
                 const refugeResult = search(coor, refuge, 1);
+                const incineratorResult = search(coor, incinerator, 5);
+                const firstAidResult = search(coor, firstAid, 5);
+                const kindergardenResult = search(coor, kindergarden, 1);
 
                 const medNum = medResult.length;
                 const trashNum = trashResult.length;
@@ -69,6 +76,7 @@ app.post('/', (req, res) => {
                 var Safe = refugeNum + medNum + cameraNum + speedNum;
                 var Con = ubikeNum + trashNum;
                 var scores = {environment: -Env, safety: Safe, convenience: Con};
+                
 
                 res.render('result', {
                     target: {
@@ -85,7 +93,10 @@ app.post('/', (req, res) => {
                         camera: cameraResult,
                         ubike: ubikeResult,
                         speed: speedResult,
-                        refuge: refugeResult
+                        refuge: refugeResult,
+                        incinerator: incineratorResult,
+                        firstAid: firstAidResult,
+                        kindergarden: kindergardenResult
                     }
                 });
             }

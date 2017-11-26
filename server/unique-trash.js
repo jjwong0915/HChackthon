@@ -13,7 +13,6 @@ const uniqueTrash = (trashRes) => {
 			}
 		}
 	}
-	console.log(trashMap.values());
 	return Array.from(trashMap.values());
 };
 
