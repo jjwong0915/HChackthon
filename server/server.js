@@ -19,6 +19,7 @@ var uv = require('../utility/uv.js');
 var polution = require('../data/polu/data.json');
 var ubike = require('../data/ubike/Data.json');
 var speed = require('../data/speed/data.json');
+var refuge = require('../data/refuge/data.json');
 
 app.set('views', path.join(__dirname, '../client/template'));
 app.set('view engine', 'html');
@@ -53,6 +54,21 @@ app.post('/', (req, res) => {
                 const cameraResult = { data: camera(address) };
                 const ubikeResult = search(coor, ubike, 0.5);
                 const speedResult = search(coor, speed, 1);
+                const refugeResult = search(coor, refuge, 1);
+
+                const medNum = medResult.length;
+                const trashNum = trashResult.length;
+                const bdxNum = bdxResult.length;
+                const poluNum = poluResult.length;
+                const cameraNum = cameraResult.length;
+                const ubikeNum = ubikeResult.length;
+                const speedNum = speedResult.length;
+                const refugeNum = refugeResult.length;
+
+                var Env = bdxNum + poluNum;
+                var Safe = refugeNum + medNum + cameraNum + speedNum;
+                var Con = ubikeNum + trashNum;
+                var scores = {environment: -Env, safety: Safe, convenience: Con};
 
                 res.render('result', {
                     target: {
@@ -61,13 +77,15 @@ app.post('/', (req, res) => {
                         uvi: uvi
                     },
                     data: {
+                        score: scores,
                         medical: medResult,
                         trash: trashResult,
                         bdx: bdxResult,
                         polution: poluResult,
                         camera: cameraResult,
                         ubike: ubikeResult,
-                        speed: speedResult
+                        speed: speedResult,
+                        refuge: refugeResult
                     }
                 });
             }
