@@ -39,33 +39,38 @@ app.post('/', (req, res) => {
         uv()
     ])
         .then((result) => {
-            const coor = result[0];
-            const uvi = result[1];
+            if(result[0]=="jizzed"){
+                res.send("jizzes");
+            }
+            else{
+                const coor = result[0];
+                const uvi = result[1];
 
-            const medResult = search(coor, med, 1);
-            const trashResult = uniqueTrash(search(coor, trash, 0.5));
-            const bdxResult = search(coor, bdx, 5);
-            const poluResult = search(coor, polution, 1);
-            const cameraResult = { data: camera(address) };
-            const ubikeResult = search(coor, ubike, 0.5);
-            const speedResult = search(coor, speed, 1);
+                const medResult = search(coor, med, 1);
+                const trashResult = uniqueTrash(search(coor, trash, 0.5));
+                const bdxResult = search(coor, bdx, 5);
+                const poluResult = search(coor, polution, 1);
+                const cameraResult = { data: camera(address) };
+                const ubikeResult = search(coor, ubike, 0.5);
+                const speedResult = search(coor, speed, 1);
 
-            res.render('result', {
-                target: {
-                    address: address,
-                    coordinate: coor,
-                    uvi: uvi
-                },
-                data: {
-                    medical: medResult,
-                    trash: trashResult,
-                    bdx: bdxResult,
-                    polution: poluResult,
-                    camera: cameraResult,
-                    ubike: ubikeResult,
-                    speed: speedResult
-                }
-            });
+                res.render('result', {
+                    target: {
+                        address: address,
+                        coordinate: coor,
+                        uvi: uvi
+                    },
+                    data: {
+                        medical: medResult,
+                        trash: trashResult,
+                        bdx: bdxResult,
+                        polution: poluResult,
+                        camera: cameraResult,
+                        ubike: ubikeResult,
+                        speed: speedResult
+                    }
+                });
+            }
         })
         .catch((err) => {
             console.log(err);

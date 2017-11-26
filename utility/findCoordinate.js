@@ -16,7 +16,10 @@ const findCoordinate = (address) => {
 				lng: res[0].longitude
 			};
 		}
-	});
+	})
+    .catch(() => {
+        return "jizzed";
+    });
 };
 
 module.exports = findCoordinate;
