@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>很厲害的專案</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLHGictosoQqbBFZfQ7N0-Z4YmrlZY9I0&callback=initMap"></script>
 </head>
 
@@ -33,6 +33,12 @@
                     <a class="nav-link" data-toggle="tab" href="#medical">
                         <i class="fa fa-h-square" aria-hidden="true"></i>
                         <span style="display:none;">醫院 ({{data.medical.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#firstAid">
+                        <i class="fa fa-medkit" aria-hidden="true"></i>
+                        <span style="display:none;">急救 ({{data.firstAid.length}})</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -77,6 +83,18 @@
                         <span style="display:none;">避難所 ({{data.refuge.length}})</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#incinerator">
+                        <i class="fa fa-fire" aria-hidden="true"></i>
+                        <span style="display:none;">焚化爐 ({{data.incinerator.length}})</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#kindergarden">
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        <span style="display:none;">幼稚園 ({{data.kindergarden.length}})</span>
+                    </a>
+                </li>
             </ul>
             <form action="/" method="post" class="second-search">
                 <input type="text" name="address" placeholder="Search..."></input>
@@ -106,98 +124,125 @@
                         {{#medical}}
                         <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">
                             {{data.name}}</a>
-                        {{/medical}}
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="trash">
-                    <div class="nav flex-column nav-pills">
-                        {{#trash}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.carNumber}}</a>
-                        {{/trash}}
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="bdx">
-                    <div class="nav flex-column nav-pills">
-                        {{#bdx}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
-                        {{/bdx}}
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="polu">
-                    <div class="nav flex-column nav-pills">
-                        {{#polution}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.factory}}</a>
-                        {{/polution}}
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="camera">
-                    <div class="nav flex-column nav-pills">
-                        {{#camera.data}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{position}}</a>
-                        {{/camera.data}}
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="ubike">
-                    <div class="nav flex-column nav-pills">
-                        {{#ubike}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
-                        {{/ubike}}
+                            {{/medical}}
                         </div>
                     </div>
-                <div class="tab-pane fade" id="speed">
-                    <div class="nav flex-column nav-pills">
-                        {{#speed}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.position}}</a>
-                         {{/speed}}
+                    <div class="tab-pane fade" id="trash">
+                        <div class="nav flex-column nav-pills">
+                            {{#trash}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.carNumber}}</a>
+                            {{/trash}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="bdx">
+                        <div class="nav flex-column nav-pills">
+                            {{#bdx}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                            {{/bdx}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="polu">
+                        <div class="nav flex-column nav-pills">
+                            {{#polution}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.factory}}</a>
+                            {{/polution}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="camera">
+                        <div class="nav flex-column nav-pills">
+                            {{#camera.data}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{position}}</a>
+                            {{/camera.data}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ubike">
+                        <div class="nav flex-column nav-pills">
+                            {{#ubike}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                            {{/ubike}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="speed">
+                        <div class="nav flex-column nav-pills">
+                            {{#speed}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.position}}</a>
+                            {{/speed}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="refuge">
+                        <div class="nav flex-column nav-pills">
+                            {{#refuge}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}  (容納人數：{{data.peopleNumber}})</a>
+                            {{/refuge}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="kindergarden">
+                        <div class="nav flex-column nav-pills">
+                            {{#kindergarden}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                            {{/kindergarden}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="incinerator">
+                        <div class="nav flex-column nav-pills">
+                            {{#incinerator}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
+                            {{/incinerator}}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="firstAid">
+                        <div class="nav flex-column nav-pills">
+                            {{#firstAid}}
+                            <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{name}}</a>
+                            {{/firstAid}}
+                        </div>
+                    </div>
+                    {{/data}}
+                </div>
+                <div class="detail">
+                    <div id="map">
                     </div>
                 </div>
-                <div class="tab-pane fade" id="refuge">
-                    <div class="nav flex-column nav-pills">
-                        {{#refuge}}
-                        <a class="nav-link" data-toggle="pill" href="#" lat="{{coordinate.lat}}" lng="{{coordinate.lng}}" distance="{{distance}}">{{data.name}}</a>
-                        {{/refuge}}
-                    </div>
-                </div>
-                {{/data}}
-            </div>
-            <div class="detail">
-                <div id="map">
-                </div>
-            </div>
-    </main>
-
-</body>
-<script>
-    var map;
-    var marker;
-    $("ul.nav-tabs a").click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-        $("ul.nav-tabs span").not('.active').hide();
-        $(this).children('span').show();
-        if ($(this).attr('id') == 'posTab') {
-            marker.setVisible(false);
-        }
-    });
-
-    function initMap() {
-        var targetLat = {{target.coordinate.lat}};
-        var targetLng = {{target.coordinate.lng}};
-        var target = { lat: targetLat, lng: targetLng };
-        map = new google.maps.Map(document.getElementById('map'), { zoom: 14, center: target });
-        var targetmarker = new google.maps.Marker({ position: target, map: map });
-        targetmarker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=U|FE7569')
-        marker = new google.maps.Marker({ position: target, map: map });
-        marker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=T|FDD835')
-        marker.setVisible(false);
-    }
-    
-    $("div.nav-pills a").click(function (e) {
-        e.preventDefault();
-        var latlng = new google.maps.LatLng(Number($(this).attr('lat')), Number($(this).attr('lng')));
-        marker.setVisible(true);
-        marker.setPosition(latlng);
-    });
-</script>
-
-</html>
+            </main>
+            
+        </body>
+        <script>
+            var map;
+            var marker;
+            var target;
+            $("ul.nav-tabs a").click(function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+                $("ul.nav-tabs span").not('.active').hide();
+                $(this).children('span').show();
+                if ($(this).attr('id') == 'posTab') {
+                    marker.setVisible(false);
+                }
+            });
+            
+            function initMap() {
+                var targetLat = {{target.coordinate.lat}};
+                var targetLng = {{target.coordinate.lng}};
+                target = { lat: targetLat, lng: targetLng };
+                map = new google.maps.Map(document.getElementById('map'), { zoom: 14, center: target });
+                var targetmarker = new google.maps.Marker({ position: target, map: map });
+                targetmarker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=U|FE7569')
+                marker = new google.maps.Marker({ position: target, map: map });
+                marker.setIcon('http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=T|FDD835')
+                marker.setVisible(false);
+            }
+            
+            $("div.nav-pills a").click(function (e) {
+                e.preventDefault();
+                var latlng = new google.maps.LatLng(Number($(this).attr('lat')), Number($(this).attr('lng')));
+                marker.setVisible(true);
+                marker.setPosition(latlng);
+                var bounds = new google.maps.LatLngBounds();
+                bounds.extend(latlng);
+                bounds.extend(target);
+                map.fitBounds(bounds);
+                map.panToBounds(bounds);
+            });
+        </script>
+        
+        </html>
