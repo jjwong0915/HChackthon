@@ -1,4 +1,4 @@
-{
+[{
     "lat": "24.795173",
     "lng": "120.98693",
     "data": { "name": "十八尖山森林公園"
@@ -139,10 +139,6 @@
     "lng": "121.52493",
     "data": { "name": "康樂公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "用鑑公園"
-}},{
     "lat": "25.041388",
     "lng": "121.44644",
     "data": { "name": "新莊公園"
@@ -154,14 +150,6 @@
     "lat": "24.774399",
     "lng": "120.96830",
     "data": { "name": "明湖公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "科學園路安全島"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "科園里兒童公園"
 }},{
     "lat": "21.162341",
     "lng": "110.46459",
@@ -175,18 +163,6 @@
     "lng": "121.00879",
     "data": { "name": "科園親子公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "金山東街旁公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "金山六街旁公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "金山十一街旁公園"
-}},{
     "lat": "24.779217",
     "lng": "121.02257",
     "data": { "name": "金山面公園"
@@ -195,37 +171,9 @@
     "lng": "121.64574",
     "data": { "name": "金山公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "金山十八街安全島綠地"
-}},{
     "lat": "40.667621",
     "lng": "-73.96318",
     "data": { "name": "櫻花公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙水里綠地"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙宮里公兒(一)"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙宮里公兒(二)"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙宮里公兒(三)"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙宮里綠地(一)"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "仙宮里綠地(二)"
 }},{
     "lat": "22.788144",
     "lng": "120.63156",
@@ -250,10 +198,6 @@
     "lat": "24.823594",
     "lng": "120.95440",
     "data": { "name": "吉羊公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "頭前溪高灘地運動休憩公園"
 }},{
     "lat": "24.996375",
     "lng": "121.43853",
@@ -283,7 +227,7 @@
     "lng": "120.947\n ",
     "data": { "name": "紅樹林公園"
 }},{
-    "lat": "24.80091",
+    "lat": "24.80091,",
     "lng": "120.98495",
     "data": { "name": "綠水里市有公園"
 }},{
@@ -303,37 +247,9 @@
     "lng": "120.66506",
     "data": { "name": "經國路園道"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "經國路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "東大路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "竹光路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "建功一路旁園道五"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "建功國小前園道五"
-}},{
     "lat": "24.802807",
     "lng": "120.98513",
     "data": { "name": "建功里園道五"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "建功高中前園道五"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "馬偕醫院旁園道五"
 }},{
     "lat": "24.802807",
     "lng": "120.98513",
@@ -355,10 +271,6 @@
     "lng": "139.81560",
     "data": { "name": "百花園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "青少年館旁公園"
-}},{
     "lat": "23.945393",
     "lng": "120.78862",
     "data": { "name": "南寮苗圃"
@@ -379,10 +291,6 @@
     "lng": "120.95150",
     "data": { "name": "頂埔里和平公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "古賢里東大路三段機場圍牆旁綠地"
-}},{
     "lat": "24.904930",
     "lng": "121.28336",
     "data": { "name": "長興公園"
@@ -391,33 +299,9 @@
     "lng": "120.89229",
     "data": { "name": "南十八尖山"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "南隘自辦農村社區公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "昇湖自辦農村社區公園綠地"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "南勢農村社區公園用廣場"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "港南農村社區公園用廣場綠地"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "浸水農村社區公園"
-}},{
     "lat": "24.171795",
     "lng": "120.66907",
     "data": { "name": "中清公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "高峰里遊憩綠地"
 }},{
     "lat": "24.772654",
     "lng": "120.92548",
@@ -443,18 +327,6 @@
     "lng": "126.98397",
     "data": { "name": "龍山公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "關埔綠5及6(廣場使用)"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "光復里東勢街旁公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "馬偕公園"
-}},{
     "lat": "25.083885",
     "lng": "121.38282",
     "data": { "name": "一品公園"
@@ -475,10 +347,6 @@
     "lng": "139.63311",
     "data": { "name": "港北公園"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "香山區南隘里大院住宅社區閭鄰公園"
-}},{
     "lat": "24.782334",
     "lng": "121.02426",
     "data": { "name": "關東里公兒四公園"
@@ -486,10 +354,6 @@
     "lat": "24.172009",
     "lng": "120.66976",
     "data": { "name": "長青公園"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "東明自辦市地重劃區公園綠地"
 }},{
     "lat": "24.796335",
     "lng": "120.91626",
@@ -499,81 +363,13 @@
     "lng": "120.95366",
     "data": { "name": "景觀大道及景觀平台"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "光復路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "中華路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "和平路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "天府路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "海濱路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "海埔路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "高翠路安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "客雅溪防汛道路植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "客雅大道安全島植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "慈雲路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "大學路人行道樹木"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "關新路安全島、人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "中正路人行道植栽"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "金山街人行道植栽"
-}},{
     "lat": "24.815106",
     "lng": "120.98106",
     "data": { "name": "鐵道路一、二段人行道植栽"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "牛埔東路人行道"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "公園路人行道、安全島栽植"
-}},{
     "lat": "24.791133",
     "lng": "120.93732",
     "data": { "name": "中華路台玻對面綠地"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "沿海十七公里自行車步道"
 }},{
     "lat": "23.482636",
     "lng": "120.45358",
@@ -587,14 +383,6 @@
     "lng": "115.84277",
     "data": { "name": "南大路綠地"
 }},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "公道三竹香南路綠地興闢工程"
-}},{
-    "lat": "results\" ",
-    "lng": "results\" ",
-    "data": { "name": "關東路376巷綠帶"
-}},{
     "lat": "23.318136",
     "lng": "120.26844",
     "data": { "name": "鹽水公園"
@@ -606,4 +394,4 @@
     "lat": "24.006173",
     "lng": "121.63888",
     "data": { "name": "台肥公園"
-}},
+}}]
